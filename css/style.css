@@ -1,0 +1,48 @@
+body>header {
+    background-color: blueviolet;
+}
+body{
+    background-color: lightslategrey;
+}
+.criation-time {
+    color: #ccc;
+}
+
+#Esportes h2 {
+    color :greenyellow;
+}
+
+#economia h2 {
+    color: gold;
+}
+
+#entretenimento h2 {
+    color:blueviolet
+}
+
+#literatura h2 {
+    color:aqua
+}
+
+header li {
+    display:inline;
+
+}
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+section .articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img{
+    height: 180px;
+}
+
+.articles article{
+    width: 30%;
+}
